@@ -13,6 +13,6 @@ int main() {
 		return 1;
 	}
 
-	
+	in_file.close();	
 	return 0;
 }
