@@ -15,7 +15,7 @@ int main() {
 
 	while(in_file) {
 		std::string line;
-		std::getline(in_file, line, ":");	
+		std::getline(in_file, line, ':');	
 	}
 
 	in_file.close();	
