@@ -18,6 +18,11 @@ int main() {
 		std::getline(in_file, line, ':');	
 
 		in_file >> std::ws; // Take care of white spaces.
+
+		int population {0};
+		in_file >> population;
+
+		std::cout << line << " -- " << population << std::endl;	
 	}
 
 	in_file.close();	
