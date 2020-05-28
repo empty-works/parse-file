@@ -16,6 +16,8 @@ int main() {
 	while(in_file) {
 		std::string line;
 		std::getline(in_file, line, ':');	
+
+		in_file >> std::ws; // Take care of white spaces.
 	}
 
 	in_file.close();	
